@@ -1,0 +1,10 @@
+train: ./vehicleDataset/train.txt
+val: ./vehingDataset/val.txt
+# you can download the dataset from https://www.kaggle.com/datasets/nadinpethiyagoda/vehicle-dataset-for-yolo
+# make appropriate train and val text files
+
+# number of classes
+nc: 8
+
+# class names
+names: [ 'car', 'threewheel', 'bus', 'truck', 'motorbike', 'van' ]
