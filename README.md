@@ -36,11 +36,6 @@ python train.py --workers 8 --device 0 --batch-size 16 --data data/vehicle.yaml 
 ```bash
 python detect.py --weights weights/yolov7-vehicle.pt --conf 0.25 --img-size 640 --source sample.jpg
 
-## Contributors
-- MannShah0312 (Mann Shah)
-- JAHNRR (Jahnavi Rathod)
-- Miraj Rambhiya
-
 ## 📜 Citation  
 If you use this repository, consider citing:  
 ```
