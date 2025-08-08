@@ -35,6 +35,7 @@ python train.py --workers 8 --device 0 --batch-size 16 --data data/vehicle.yaml 
 ### Run Inference on an Image  
 ```bash
 python detect.py --weights weights/yolov7-vehicle.pt --conf 0.25 --img-size 640 --source sample.jpg
+```
 
 ## 📜 Citation  
 If you use this repository, consider citing:  
@@ -46,6 +47,11 @@ If you use this repository, consider citing:
   year={2023}
 }
 ```
+
+## Contributors
+- MannShah0312
+- JAHNRR
+- Miraj Rambhiya
 
 ## 🛠️ Acknowledgments  
 - **[Official YOLOv7 Repository](https://github.com/WongKinYiu/yolov7)**
